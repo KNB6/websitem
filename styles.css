@@ -31,6 +31,21 @@
 	border: none;
 }
 
+img{
+	max-width: 100%;
+}
+
+.gallery img{
+	background-color: #ffffff;
+	
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#galeri-modal .modal-img{
+	width: 100%;
+}
+
 @media (max-width: 991px) {
 	.iletisim-form {
 		margin-bottom: 30px;
